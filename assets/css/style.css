@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg,#ffe53bd8,#ff2525da);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 5);
+    height: 200px;
+    width: 550px;
+}
+
+.Clock div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    height: 170px;
+    width: 160px;
+    background: #000000;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 5);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.Clock span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.Clock .temp {
+    font-size: 10px;
+}
